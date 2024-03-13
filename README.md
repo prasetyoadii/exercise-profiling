@@ -3,6 +3,27 @@ Kelas : A <br>
 Asdos : DEE <hr>
 
 # TUTORIAL 5
+## Hasil Sebelum optimisasi
+![1](https://github.com/prasetyoadii/exercise-profiling/assets/125488022/f074e8ce-4263-4647-a2ee-3f9ea7dd7dc6)
+![2](https://github.com/prasetyoadii/exercise-profiling/assets/125488022/f708e41f-8318-4976-9b44-0c2e23d069fd)
+![3](https://github.com/prasetyoadii/exercise-profiling/assets/125488022/10c0364e-c37f-4775-b58f-24b466aed0a7)
+![4](https://github.com/prasetyoadii/exercise-profiling/assets/125488022/618b6e9c-6d43-4459-ab7f-bb6cf81b922a)
+![5](https://github.com/prasetyoadii/exercise-profiling/assets/125488022/cbcfe686-d9ff-4ccd-b5e6-567b034b641d)
+![6](https://github.com/prasetyoadii/exercise-profiling/assets/125488022/07ff1767-7341-4731-a25f-6fe092633610)
+![before1](https://github.com/prasetyoadii/exercise-profiling/assets/125488022/aa1b63da-1243-400b-b891-4d01562be451)
+![before 2](https://github.com/prasetyoadii/exercise-profiling/assets/125488022/0281b4f9-0d0a-4698-b51b-7e33bd165812)
+![before 3](https://github.com/prasetyoadii/exercise-profiling/assets/125488022/70663bea-aa6b-4204-b84c-5eb4f5f97885)
+## Hasil Setelah optimisasi
+![after 1](https://github.com/prasetyoadii/exercise-profiling/assets/125488022/9ab7a7ad-cdfa-4682-8b59-984933feb0b1)
+![after 2](https://github.com/prasetyoadii/exercise-profiling/assets/125488022/7b87e86a-ec2a-4022-8c41-ce87cd1bc542)
+![after 3](https://github.com/prasetyoadii/exercise-profiling/assets/125488022/c057a2e3-f2c7-4fc2-ad62-540a66e1f90a)
+![after 4](https://github.com/prasetyoadii/exercise-profiling/assets/125488022/d2491aea-53fa-499d-964c-8013095abb27)
+![after 5](https://github.com/prasetyoadii/exercise-profiling/assets/125488022/22842656-49e7-40f7-a52b-03d6954ddeb0)
+![after 6](https://github.com/prasetyoadii/exercise-profiling/assets/125488022/c000f995-36f0-48a0-abb1-949cfff821a6)
+
+**Kesimpulan**
+Performa dan waktu eksekusi telah meningkat setelah melakukan optimasi menggunakan Intellij Profiler dan performance testing dengan JMeter pada kode-kode awal yang sebelumnya memakan waktu lama. Keberhasilan optimasi ini terbukti dari percepatan waktu eksekusi dalam merespons permintaan.
+
 1. **What is the difference between the approach of performance testing with JMeter and profiling with IntelliJ Profiler in the context of optimizing application performance?** <br>
    Pengujian menggunakan JMeter cenderung bersifat blackbox karena lebih fokus pada evaluasi respons aplikasi terhadap simulasi tindakan pengguna, seperti waktu respons, throughput, dan penggunaan sumber daya. JMeter mengirim permintaan ke endpoint yang ditentukan, menilai keberhasilan eksekusi, dan membantu mengidentifikasi area perbaikan tanpa memperhatikan detail internal aplikasi. Di sisi lain, pendekatan profiling, seperti yang ditawarkan oleh IntelliJ Profiler, menawarkan analisis mendalam terhadap proses internal aplikasi. Profiling memungkinkan identifikasi bagian kode yang memakan waktu, pola penggunaan memori, dan beban kerja CPU, memberikan pemahaman yang lebih mendalam untuk optimalisasi yang efektif. Kombinasi keduanya dapat memberikan wawasan holistik tentang kinerja aplikasi, dengan JMeter fokus pada respons umum dan profiling memberikan wawasan.
 2. **How does the profiling process help you in identifying and understanding the weak points in your application?** <br>
